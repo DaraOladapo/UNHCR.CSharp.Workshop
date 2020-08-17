@@ -1,4 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Module03.ImplementProgramFlow
 {
@@ -6,7 +12,9 @@ namespace Module03.ImplementProgramFlow
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            /* Take a look at each one of the other class files! :) You can switch the Main method by any of the
+             * commented code blocks
+            */
         }
     }
 }

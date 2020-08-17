@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Runtime.Serialization;
 
-namespace Module04.CreateAndImplementEventsAndCallbacks
+namespace Module05.ImplementExceptionHandling
 {
     class Program
     {
