@@ -1,26 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Module03.ImplementProgramFlow
+﻿namespace Module03.ImplementProgramFlow
 {
     class WorkingWIthBooleansExpressions
     {
         //static void Main(string[] args)
         //{
-        //    C# relational and equality operators
-        //    const int mySalary = 1000;
-        //    const int anonSalary = 1500;
+        //C# relational and equality operators
+        //const int mySalary = 1000;
+        //const int anonSalary = 1500;
 
-
-        //    Console.WriteLine(mySalary < anonSalary);
-        //    Console.WriteLine(mySalary > anonSalary);
-        //    Console.WriteLine(mySalary <= anonSalary);
-        //    Console.WriteLine(mySalary >= anonSalary);
-        //    Console.WriteLine(mySalary == anonSalary);
-        //    Console.WriteLine(mySalary != anonSalary);
+        ////less than
+        //Console.WriteLine(mySalary < anonSalary);
+        ////greater than
+        //Console.WriteLine(mySalary > anonSalary);
+        ////less than or equal to
+        //Console.WriteLine(mySalary <= anonSalary);
+        ////greater than or equal to
+        //Console.WriteLine(mySalary >= anonSalary);
+        ////equal to
+        //Console.WriteLine(mySalary == anonSalary);
+        ////not equal to
+        //Console.WriteLine(mySalary != anonSalary);
 
         //    var falseValue = false;
         //    var trueValue = true;

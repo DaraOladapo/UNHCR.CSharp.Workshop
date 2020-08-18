@@ -5,9 +5,9 @@ namespace Module05.ImplementExceptionHandling
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.ReadKey();
-        }
+        //static void Main(string[] args)
+        //{
+        //    Console.ReadKey();
+        //}
     }
 }

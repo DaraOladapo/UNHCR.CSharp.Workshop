@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Module04.CreateAndImplementEventsAndCallbacks
 {
-    class using_lambda_expressions
+    class UsingLambdaExpressions
     {
         //public delegate int Calculate(int x, int y);
 

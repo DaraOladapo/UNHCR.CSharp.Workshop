@@ -1,4 +1,6 @@
-﻿namespace Module05.ImplementExceptionHandling
+﻿using System;
+
+namespace Module05.ImplementExceptionHandling
 {
     class ThrowsException
     {

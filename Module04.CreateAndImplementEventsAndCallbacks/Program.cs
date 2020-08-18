@@ -6,9 +6,9 @@ namespace Module04.CreateAndImplementEventsAndCallbacks
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.ReadKey();
-        }
+        //static void Main(string[] args)
+        //{
+        //    Console.ReadKey();
+        //}
     }
 }

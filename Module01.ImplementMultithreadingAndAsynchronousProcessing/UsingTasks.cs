@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Module01.ImplementMultithreadingAndAsynchronousProcessing
@@ -10,20 +7,20 @@ namespace Module01.ImplementMultithreadingAndAsynchronousProcessing
     {
         //static void Main(string[] args)
         //{
-        //    Task thePowerfulTask = Task.Run(() =>
-        //    {
-        //        for (var i = 0; i < 1000; i++)
-        //        {
-        //            Console.Write("for Execution nº: " + i + ", ");
-        //        }
-        //    });
+            //Task thePowerfulTask = Task.Run(() =>
+            //{
+            //    for (var i = 0; i < 1000; i++)
+            //    {
+            //        Console.WriteLine("for Execution nº: " + i + ", ");
+            //    }
+            //});
 
-        //    thePowerfulTask.Wait();
+            //thePowerfulTask.Wait(30000);
 
-        //    Task<string> thePowerfulTaskWithReturn = Task.Run(() => "sleepy!");
+            //Task<string> thePowerfulTaskWithReturn = Task.Run(() => "sleepy!");
 
-        //    Console.WriteLine("Luis is " + thePowerfulTaskWithReturn.Result);
-        //    Console.ReadLine();
+            //Console.WriteLine("Luis is " + thePowerfulTaskWithReturn.Result);
+            //Console.ReadLine();
         //}
     }
 }

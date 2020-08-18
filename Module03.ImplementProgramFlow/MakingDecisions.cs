@@ -8,64 +8,66 @@ namespace Module03.ImplementProgramFlow
 {
     class MakingDecisions
     {
-        //static void Main(string[] args)
-        //{
-        //    var coffee = true;
-        //    var isDeadlineClose = false;
-        //    if (coffee)
-        //    {
-        //        Console.WriteLine("Let's study for some additional hours!");
-        //        coffee = false;
-        //    }
+        static void Main(string[] args)
+        {
+            var coffee = false;
+            var isDeadlineClose = false;
+            //if (coffee)
+            //{
+            //    Console.WriteLine("Let's study for some additional hours!");
+            //    coffee = false;
+            //}
 
-        //    if (coffee)
-        //    {
-        //        Console.WriteLine("There are still more coffee!");
-        //    }
-        //    else if (isDeadlineClose)
-        //    {
-        //        coffee = true;
-        //        Console.WriteLine("Let's study for some additional hours!");
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine("It is time to sleep!");
-        //        var codeBlockVariable = "What's up?";
-        //        Console.WriteLine(codeBlockVariable);
-        //    }
+            //if (coffee)
+            //{
+            //    Console.WriteLine("There are still more coffee!");
+            //}
+            //else if (isDeadlineClose)
+            //{
+            //    coffee = true;
+            //    Console.WriteLine("Let's study for some additional hours!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("It is time to sleep!");
+            //    var codeBlockVariable = "What's up?";
+            //    Console.WriteLine(codeBlockVariable);
+            //}
 
-        //    // Console.WriteLine(codeBlockVariable);
+            //    // Console.WriteLine(codeBlockVariable);
 
-        //    // Null-coalescing operator
-        //    var words = new[] { "Luis", "Felipe", "Jorge", "Joel", "Helora" };
+            //    // The conditional operator
+            //string MyName = Console.ReadLine();
+            //var IsMyName = MyName == "Dara" ? "Hey Dara" : "Not me";
+            //Console.WriteLine(IsMyName);
 
-        //    var richardName = words.SingleOrDefault(w => w == "Richard") ?? "Default";
 
-        //    Console.WriteLine(richardName);
 
-        //    // The conditional operator
-        //    var hoursSinceLastMean = 5;
-        //    var luisMood = hoursSinceLastMean > 3 ? "Luis is not really happy..." : "Luis is still cool!";
-        //    Console.WriteLine(luisMood);
+            // The Switch Statemenet
+            //var rankingPosition = int.Parse(Console.ReadLine());
 
-        //    // The Switch Statemenet
-        //    var rankingPosition = 1;
-
-        //    switch (rankingPosition)
-        //    {
-        //        case 1:
-        //            Console.WriteLine("Golden medal!");
-        //            goto case 2;
-        //        case 2:
-        //            Console.WriteLine("Silver medal!");
-        //            goto case 3;
-        //        case 3:
-        //            Console.WriteLine("Bronze medal!");
-        //            break;
-        //        default:
-        //            Console.WriteLine("Do not get sad! Let's strive to get prepared for the next contest!");
-        //            break;
-        //    }
-        //}
+            //switch (rankingPosition)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Golden medal!");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Silver medal!");
+            //        goto case 3;
+            //    case 3:
+            //        Console.WriteLine("Bronze medal!");
+            //        break;
+            //    case 4:
+            //    case 5:
+            //    case 6:
+            //        Console.WriteLine("Runner up!");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Do not get sad! Let's strive to get prepared for the next contest!");
+            //        break;
+            //}
+            //if (rankingPosition == 4 || rankingPosition == 5 || rankingPosition == 6)
+            //    Console.WriteLine();
+        }
     }
 }
