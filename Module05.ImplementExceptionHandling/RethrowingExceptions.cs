@@ -41,7 +41,7 @@ namespace Module05.ImplementExceptionHandling
             //    throw new FormatException("Throwing the same exception");
             //}
 
-            Console.ReadKey();
+            ;
         }
 
         public class NotSoGreatException : Exception

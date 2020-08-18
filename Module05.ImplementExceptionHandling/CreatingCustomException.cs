@@ -12,7 +12,7 @@ namespace Module05.ImplementExceptionHandling
         //{
         //    static void Main(string[] args)
         //    {
-        //        Console.ReadKey();
+        //        ;
         //    }
         //}
         //[Serializable]

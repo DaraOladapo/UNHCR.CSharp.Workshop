@@ -18,7 +18,7 @@ namespace Module08.CreateAndImplementClassHierarchy
         //    student.SayHi();
         //    employee.SayHi();
 
-        //    Console.ReadKey();
+        //    ;
         //}
     }
     //public abstract class Person

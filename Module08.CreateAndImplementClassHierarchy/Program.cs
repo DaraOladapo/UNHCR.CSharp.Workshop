@@ -9,7 +9,7 @@ namespace Module08.CreateAndImplementClassHierarchy
         static void Main(string[] args)
         {
 
-            Console.ReadKey();
+            ;
         }
     }
 }

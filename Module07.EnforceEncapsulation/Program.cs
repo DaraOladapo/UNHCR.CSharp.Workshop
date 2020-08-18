@@ -6,7 +6,7 @@ namespace Module07.EnforceEncapsulation
     {
         static void Main(string[] args)
         {
-            Console.ReadKey();
+            ;
         }
     }
 }

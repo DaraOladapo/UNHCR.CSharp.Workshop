@@ -39,7 +39,7 @@ namespace Module11.ManipulateStrings
 
         //    Console.WriteLine($"Long date: {now:D}, Shortdate: {now:d}, Currency: {price:C}");
 
-        //    Console.ReadKey();
+        //    ;
         //}
     }
 }

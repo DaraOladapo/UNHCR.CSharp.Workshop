@@ -13,7 +13,7 @@
         //    Console.WriteLine(integerToDouble.ToString());
         //    Console.WriteLine(person.Role); // it does not compile, since the Employee was implicitly converted to a Person and does not have the Role property anymore.
 
-        //    Console.ReadKey();
+        //    ;
         //}
     }
 

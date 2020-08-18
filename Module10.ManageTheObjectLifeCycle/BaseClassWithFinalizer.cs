@@ -12,7 +12,7 @@ namespace Module10.ManageTheObjectLifeCycle
     //        GC.Collect();
     //        GC.WaitForPendingFinalizers();
 
-    //        Console.ReadKey();
+    //        ;
     //    }
     //}
 

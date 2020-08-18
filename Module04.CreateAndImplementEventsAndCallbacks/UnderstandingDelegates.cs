@@ -42,7 +42,7 @@
 //            calc = Divide;
 //            Console.WriteLine(calc(9, 6));
 
-//            Console.ReadKey();
+//            ;
 //        }
 //    }
 //}

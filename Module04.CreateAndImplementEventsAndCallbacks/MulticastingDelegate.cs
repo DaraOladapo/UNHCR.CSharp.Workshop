@@ -26,7 +26,7 @@ namespace Module04.CreateAndImplementEventsAndCallbacks
 
         //    multiCastingCalc(3, 4);
 
-        //    Console.ReadKey();
+        //    ;
         //}
     }
 }

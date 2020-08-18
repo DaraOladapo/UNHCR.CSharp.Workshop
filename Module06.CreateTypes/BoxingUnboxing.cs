@@ -9,7 +9,7 @@
         //    foreach (var value in arrayList)
         //        Console.WriteLine(value.ToString()); // values are unboxed and displayed in the screen
 
-        //    Console.ReadKey();
+        //    ;
         //}
     }
 }

@@ -20,18 +20,18 @@ namespace Module07.EnforceEncapsulation
 
         //    employee.Salary = "-0.234"; // Throws exception because of the custom SET code. 
 
-        //    Console.ReadKey();
+        //    ;
         //}
     }
 
-    //public class Person
+    //public class person
     //{
-    //    public Person(string name)
+    //    public person(string name)
     //    {
     //        Name = name;
     //    }
-    //    private int PersonId { get; set; }
-    //    protected string Email { get; set; }
+    //    private int personid { get; set; }
+    //    protected string email { get; set; }
     //    public string Name { get; set; }
     //}
 

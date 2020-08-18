@@ -26,7 +26,7 @@ namespace Module04.CreateAndImplementEventsAndCallbacks
         //        pub.OnChange += (sender, e) => Console.WriteLine($"Event raised: {e.Value}");
 
         //        pub.Raise();
-        //        Console.ReadKey();
+        //        ;
         //    }
         //}
 

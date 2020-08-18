@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Module11.ManipulateStrings
 {
@@ -10,14 +6,13 @@ namespace Module11.ManipulateStrings
     {
         //static void Main(string[] args)
         //{
-        //    const string alphabet = "abcdefghijklmnopqrstuvwxyz";
-
-        //    foreach (var letter in alphabet)
-        //    {
-        //        Console.WriteLine(letter);
-        //    }
-
-        //    Console.ReadKey();
+            //const string alphabet = "abcdefghijklmnopqrstuvwxyz";
+            //const string alphabet = "Dara";
+            //Console.WriteLine(alphabet[1]);//output a
+            //foreach (var letter in alphabet)
+            //{
+            //    Console.WriteLine(letter);
+            //}
         //}
     }
 }

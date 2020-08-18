@@ -14,7 +14,7 @@ namespace Module04.CreateAndImplementEventsAndCallbacks
         //        publisher.OnChange += () => Console.WriteLine("Happy New Year");
 
         //        publisher.Raise();
-        //        Console.ReadKey();
+        //        ;
         //    }
         //}
 

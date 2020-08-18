@@ -24,7 +24,7 @@ namespace Module04.CreateAndImplementEventsAndCallbacks
     //        {
     //            Console.WriteLine(ex.InnerExceptions.Count);   
     //        }
-    //        Console.ReadKey();
+    //        ;
     //    }      
     //}
 

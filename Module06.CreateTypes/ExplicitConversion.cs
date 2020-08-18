@@ -14,7 +14,7 @@
         //    PrintDescription(employee);
         //    PrintDescription(student);
 
-        //    Console.ReadKey();
+        //    ;
         //}
         //static void PrintDescription(Person person)
         //{

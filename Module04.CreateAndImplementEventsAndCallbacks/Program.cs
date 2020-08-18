@@ -8,7 +8,7 @@ namespace Module04.CreateAndImplementEventsAndCallbacks
     {
         //static void Main(string[] args)
         //{
-        //    Console.ReadKey();
+        //    ;
         //}
     }
 }

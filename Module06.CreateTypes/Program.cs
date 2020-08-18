@@ -4,9 +4,9 @@ namespace Module06.CreateTypes
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.ReadKey();
-        }
+        //static void Main(string[] args)
+        //{
+        //    ;
+        //}
     }
 }

@@ -13,7 +13,7 @@
         //    Console.WriteLine(salary);
         //    Console.WriteLine(salaryInt);
 
-        //    Console.ReadKey();
+        //    ;
         //}
     }
 
