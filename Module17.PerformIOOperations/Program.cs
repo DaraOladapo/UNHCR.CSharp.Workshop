@@ -1,12 +1,16 @@
 ﻿using System;
+using System.Net.Http;
+using System.Threading.Tasks;
 
 namespace Module17.PerformIOOperations
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            await AsyncHttpCall.GetExample();
+
+            Console.Read();
         }
     }
 }

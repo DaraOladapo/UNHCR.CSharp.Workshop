@@ -6,7 +6,9 @@ namespace Module18.ConsumeData
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ConsumeXml.GetExample();
+
+            Console.ReadKey();
         }
     }
 }

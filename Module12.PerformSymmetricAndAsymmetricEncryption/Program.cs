@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Module12.ValidateApplicationInput
+namespace Module13.PerformSymmetricAndAsymmetricEncryption
 {
     class Program
     {
         static void Main(string[] args)
         {
-            EvaluateRegex.GetExample();
+            CreateCertificates.GetExample();
 
             Console.ReadLine();
         }

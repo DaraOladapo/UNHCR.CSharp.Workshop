@@ -35,11 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module11.ManipulateStrings"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module12.ValidateApplicationInput", "Module12.ValidateApplicationInput\Module12.ValidateApplicationInput.csproj", "{B6A7D186-8619-4C5F-89C4-7DDB4E19B926}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module13.PerformSymmetricAndAsymmetricEncryption", "Module12.PerformSymmetricAndAsymmetricEncryption\Module13.PerformSymmetricAndAsymmetricEncryption.csproj", "{6272A18D-7108-452F-A765-BD2A5A9793C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module13.PerformSymmetricAndAsymmetricEncryption", "Module13.PerformSymmetricAndAsymmetricEncryption\Module13.PerformSymmetricAndAsymmetricEncryption.csproj", "{6272A18D-7108-452F-A765-BD2A5A9793C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module14.ManageAssemblies", "Module13.ManageAssemblies\Module14.ManageAssemblies.csproj", "{5C80DEE1-6E58-4AF4-B320-B0159CD5231B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module14.ManageAssemblies", "Module14.ManageAssemblies\Module14.ManageAssemblies.csproj", "{5C80DEE1-6E58-4AF4-B320-B0159CD5231B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module15.DebugAnApplication", "Module14.DebugAnApplication\Module15.DebugAnApplication.csproj", "{51640345-8E39-45E6-9A80-7F926B64BE06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module15.DebugAnApplication", "Module15.DebugAnApplication\Module15.DebugAnApplication.csproj", "{51640345-8E39-45E6-9A80-7F926B64BE06}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module16.ImplementDiagnosticsInAnApplication", "Module16.ImplementDiagnosticsInAnApplication\Module16.ImplementDiagnosticsInAnApplication.csproj", "{915932DD-E616-4F39-9127-4772AF2B334F}"
 EndProject
