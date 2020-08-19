@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net.Mail;
 using System.Text.RegularExpressions;
 
 namespace Module12.ValidateApplicationInput
@@ -21,6 +22,20 @@ namespace Module12.ValidateApplicationInput
             const string pattern = @"^[a-z0-9._]+@[a-z0-9]+\.[a-z]+\.?([a-z]+)?$";
 
             return Regex.Match(email, pattern).Success;
+        }
+
+        //extra
+        static bool IsValidEmail(string emailAddress)
+        {
+            try
+            {
+                MailAddress m = new MailAddress(emailAddress);
+                return true;
+            }
+            catch (FormatException)
+            {
+                return false;
+            }
         }
     }
 }

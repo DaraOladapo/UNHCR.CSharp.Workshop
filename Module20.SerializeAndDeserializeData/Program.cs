@@ -10,7 +10,7 @@ namespace Module20.SerializeAndDeserializeData
     {
         static void Main(string[] args)
         {
-            var weatherForecast = new WeatherForecast() { Date = DateTime.Now, Summary = "Good day", TemperatureCelsius = 16 }
+            var weatherForecast = new WeatherForecast() { Date = DateTime.Now, Summary = "Good day", TemperatureCelsius = 16 };
             string jsonString;
             jsonString = JsonSerializer.Serialize(weatherForecast);
             SaveWeatherForcast("WeatherForecast.txt", weatherForecast);

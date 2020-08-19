@@ -10,8 +10,8 @@ namespace Module03.ImplementProgramFlow
     {
         static void Main(string[] args)
         {
-            var coffee = false;
-            var isDeadlineClose = false;
+            //var coffee = false;
+            //var isDeadlineClose = false;
             //if (coffee)
             //{
             //    Console.WriteLine("Let's study for some additional hours!");
