@@ -6,9 +6,7 @@ namespace Module18.ConsumeData
     {
         static void Main(string[] args)
         {
-            ConsumeXml.GetExample();
-
-            Console.ReadKey();
+            ConsumeJson.GetExample();
         }
     }
 }

@@ -6,9 +6,10 @@ namespace Module12.ValidateApplicationInput
     {
         static void Main(string[] args)
         {
-            EvaluateRegex.GetExample();
-
-            Console.ReadLine();
+            //EvaluateRegex.GetExample();
+            //ValidateJsonData.GetExample();
+            //ManageDataIntegrity.GetExample();
+            
         }
     }
 }

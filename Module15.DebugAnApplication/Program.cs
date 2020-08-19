@@ -15,8 +15,10 @@ namespace Module15.DebugAnApplication
 
 #if DEBUG
             Console.WriteLine("Debug mode.");
+#elif CUSTOM
+            Console.WriteLine("Custom mode.");
 #else
-	        Console.WriteLine("Release mode.");
+            Console.WriteLine("Release mode.");
 #endif
 
             var sum = number + anotherNumber;

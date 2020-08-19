@@ -33,25 +33,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module10.ManageTheObjectLif
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module11.ManipulateStrings", "Module11.ManipulateStrings\Module11.ManipulateStrings.csproj", "{570C371D-B3F5-4B5E-A03D-7A9861305650}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module12.ValidateApplicationInput", "Module12.ValidateApplicationInput\Module12.ValidateApplicationInput.csproj", "{B6A7D186-8619-4C5F-89C4-7DDB4E19B926}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module12.ValidateApplicationInput", "Module12.ValidateApplicationInput\Module12.ValidateApplicationInput.csproj", "{B6A7D186-8619-4C5F-89C4-7DDB4E19B926}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module13.PerformSymmetricAndAsymmetricEncryption", "Module13.PerformSymmetricAndAsymmetricEncryption\Module13.PerformSymmetricAndAsymmetricEncryption.csproj", "{6272A18D-7108-452F-A765-BD2A5A9793C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module13.PerformSymmetricAndAsymmetricEncryption", "Module13.PerformSymmetricAndAsymmetricEncryption\Module13.PerformSymmetricAndAsymmetricEncryption.csproj", "{6272A18D-7108-452F-A765-BD2A5A9793C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module14.ManageAssemblies", "Module14.ManageAssemblies\Module14.ManageAssemblies.csproj", "{5C80DEE1-6E58-4AF4-B320-B0159CD5231B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module14.ManageAssemblies", "Module14.ManageAssemblies\Module14.ManageAssemblies.csproj", "{5C80DEE1-6E58-4AF4-B320-B0159CD5231B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module15.DebugAnApplication", "Module15.DebugAnApplication\Module15.DebugAnApplication.csproj", "{51640345-8E39-45E6-9A80-7F926B64BE06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module15.DebugAnApplication", "Module15.DebugAnApplication\Module15.DebugAnApplication.csproj", "{51640345-8E39-45E6-9A80-7F926B64BE06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module16.ImplementDiagnosticsInAnApplication", "Module16.ImplementDiagnosticsInAnApplication\Module16.ImplementDiagnosticsInAnApplication.csproj", "{915932DD-E616-4F39-9127-4772AF2B334F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module16.ImplementDiagnosticsInAnApplication", "Module16.ImplementDiagnosticsInAnApplication\Module16.ImplementDiagnosticsInAnApplication.csproj", "{915932DD-E616-4F39-9127-4772AF2B334F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module17.PerformIOOperations", "Module17.PerformIOOperations\Module17.PerformIOOperations.csproj", "{C23AD04F-5751-496B-8D0B-81DD79B348A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module17.PerformIOOperations", "Module17.PerformIOOperations\Module17.PerformIOOperations.csproj", "{C23AD04F-5751-496B-8D0B-81DD79B348A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module18.ConsumeData", "Module18.ConsumeData\Module18.ConsumeData.csproj", "{D8E7D0A4-D180-478E-B2EC-764923EA5BA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module18.ConsumeData", "Module18.ConsumeData\Module18.ConsumeData.csproj", "{D8E7D0A4-D180-478E-B2EC-764923EA5BA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module19.QueryAndManipulateDataAndObjectsByUsingLINQ", "Module19.QueryAndManipulateDataAndObjectsByUsingLINQ\Module19.QueryAndManipulateDataAndObjectsByUsingLINQ.csproj", "{4BB6F2B5-41ED-432D-9A1F-C21C83C345B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module19.QueryAndManipulateDataAndObjectsByUsingLINQ", "Module19.QueryAndManipulateDataAndObjectsByUsingLINQ\Module19.QueryAndManipulateDataAndObjectsByUsingLINQ.csproj", "{4BB6F2B5-41ED-432D-9A1F-C21C83C345B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module20.SerializeAndDeserializeData", "Module20.SerializeAndDeserializeData\Module20.SerializeAndDeserializeData.csproj", "{EEC6A516-C7E6-4D11-9B48-A816DD5AA49C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module20.SerializeAndDeserializeData", "Module20.SerializeAndDeserializeData\Module20.SerializeAndDeserializeData.csproj", "{EEC6A516-C7E6-4D11-9B48-A816DD5AA49C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module21.StoreAndRetrieveDataFromCollections", "Module21.StoreAndRetrieveDataFromCollections\Module21.StoreAndRetrieveDataFromCollections.csproj", "{D9B56365-659E-4CF1-9BBD-F02AAFB6A872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module21.StoreAndRetrieveDataFromCollections", "Module21.StoreAndRetrieveDataFromCollections\Module21.StoreAndRetrieveDataFromCollections.csproj", "{D9B56365-659E-4CF1-9BBD-F02AAFB6A872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

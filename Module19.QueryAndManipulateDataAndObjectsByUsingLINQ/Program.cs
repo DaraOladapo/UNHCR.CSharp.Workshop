@@ -34,21 +34,35 @@ namespace Module19.QueryAndManipulateDataAndObjectsByUsingLINQ
                 yield return "king";
                 yield return "ace";
             }
-            var startingDeck = from s in Suits()
-                               from r in Ranks()
-                               select new { Suit = s, Rank = r };
+            //var startingDeck = from s in Suits()
+            //                   from r in Ranks()
+            //                   select new { Suit = s, Rank = r };
 
             // Display each card that we've generated and placed in startingDeck in the console
+            //foreach (var card in startingDeck)
+            //{
+            //    Console.WriteLine(card);
+            //}
+
+            // 52 cards in a deck, so 52 / 2 = 26
+            //var top = startingDeck.Take(26);
+            //var bottom = startingDeck.Skip(26);
+            //foreach (var itemTop in top)
+            //{
+            //    Console.WriteLine(itemTop.Rank);
+            //}
+            //foreach (var itemBottom in bottom)
+            //{
+            //    Console.WriteLine(itemBottom.Rank);
+            //}
+            var startingDeck = Suits().SelectMany(
+                suit => Ranks().Select(
+                    rank => new { Suit = suit, Rank = rank }));
+
             foreach (var card in startingDeck)
             {
                 Console.WriteLine(card);
             }
-
-            // 52 cards in a deck, so 52 / 2 = 26
-            var top = startingDeck.Take(26);
-            var bottom = startingDeck.Skip(26);
-            //var startingDeck = Suits().SelectMany(suit => Ranks().Select(rank => new { Suit = suit, Rank = rank }));
-
         }
     }
 }

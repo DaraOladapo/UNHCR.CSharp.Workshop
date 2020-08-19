@@ -14,23 +14,25 @@ namespace Module12.ValidateApplicationInput
 
             // Using JavaScriptSerializer
             var javascriptSerializer = new JavaScriptSerializer();
-
+            Console.WriteLine("Using Nancy JavaScriptSerializer");
             try
             {
                 var studentUsingJavascriptSerializer = javascriptSerializer.Deserialize<Student>(studentJson);
-                var invalidStudentUsingJavaScriptSerializer = javascriptSerializer.Deserialize<Student>(invalidStudentJson);
-
+                //var invalidStudentUsingJavaScriptSerializer = javascriptSerializer.Deserialize<Student>(invalidStudentJson);
+                
+                Console.WriteLine($"Student serialized: {studentUsingJavascriptSerializer.Name} with age {studentUsingJavascriptSerializer.Age}");
             }
             catch (ArgumentException)
             {
                 Console.WriteLine("ArgumentException for JavaScriptSerializer, invalidStudentJson!");
             }
-
+            Console.WriteLine("Using Newtonsoft.Json");
             // Using Newtonsoft.Json
             try
             {
                 var studentUsingNewtonsoft = JsonConvert.DeserializeObject<Student>(studentJson);
-                var invalidStudentUsingNewtonsoft = JsonConvert.DeserializeObject<Student>(invalidStudentJson);
+                //var invalidStudentUsingNewtonsoft = JsonConvert.DeserializeObject<Student>(invalidStudentJson);
+                Console.WriteLine($"Student serialized: {studentUsingNewtonsoft.Name} with age {studentUsingNewtonsoft.Age}");
 
             }
             catch (JsonSerializationException)

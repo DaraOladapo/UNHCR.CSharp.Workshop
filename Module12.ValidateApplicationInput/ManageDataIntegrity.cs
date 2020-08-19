@@ -7,13 +7,13 @@ namespace Module12.ValidateApplicationInput
     {
         public static void GetExample()
         {
-            var student = new Student("l", 5);
+            //var student = new Student("l", 5);
+
+            var student = new Student("Dara", 95);
 
             var entityErrors = Validator<Student>.Validate(student);
 
             Console.WriteLine($"Errors: {string.Join(", ", entityErrors)}");
-
-            Console.ReadLine();
         }
     }
 }

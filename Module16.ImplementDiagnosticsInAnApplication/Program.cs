@@ -6,9 +6,7 @@ namespace Module16.ImplementDiagnosticsInAnApplication
     {
         static void Main(string[] args)
         {
-            WritingToEtw.GetExample();
-
-            Console.Read();
+            DebugClassExample.GetExample();
         }
     }
 }

@@ -9,22 +9,28 @@ namespace Module21.StoreAndRetrieveDataFromCollections
         static void Main(string[] args)
         {
             var Students = GetStudents().ToList();
-            Console.WriteLine("Students before addition.");
-            foreach (var Student in Students)
+            //Console.WriteLine("Students before addition.");
+            //foreach (var Student in Students)
+            //{
+            //    Console.WriteLine($"{Students.IndexOf(Student) + 1}. {Student.FullName} with email address: {Student.EmailAddress}.");
+            //}
+            //var StudentToAdd = new Student()
+            //{
+            //    FirstName = "Mel",
+            //    LastName = "Gibson",
+            //    EmailAddress = "mel@gibson.com"
+            //};
+            //Students.Add(StudentToAdd);
+            //Console.WriteLine("Students after addition.");
+            //foreach (var Student in Students)
+            //{
+            //    Console.WriteLine($"{Students.IndexOf(Student) + 1}. {Student.FullName} with email address: {Student.EmailAddress}.");
+            //}
+            var StudentsWithNInFirstName = Students
+                .Where(filter => filter.FirstName.ToLower().Contains("n")).ToList();
+            foreach (var Student in StudentsWithNInFirstName)
             {
-                Console.WriteLine($"{Students.IndexOf(Student) + 1}. {Student.FullName} with email address: {Student.EmailAddress}.");
-            }
-            var StudentToAdd = new Student()
-            {
-                FirstName = "Mel",
-                LastName = "Gibson",
-                EmailAddress = "mel@gibson.com"
-            };
-            Students.Add(StudentToAdd);
-            Console.WriteLine("Students after addition.");
-            foreach (var Student in Students)
-            {
-                Console.WriteLine($"{Students.IndexOf(Student) + 1}. {Student.FullName} with email address: {Student.EmailAddress}.");
+                Console.WriteLine($"{StudentsWithNInFirstName.IndexOf(Student) + 1}. {Student.FullName} with email address: {Student.EmailAddress}.");
             }
         }
         static IEnumerable<Student> GetStudents()

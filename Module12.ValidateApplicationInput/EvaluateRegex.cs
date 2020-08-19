@@ -8,7 +8,7 @@ namespace Module12.ValidateApplicationInput
     {
         public static void GetExample()
         {
-            const string email = "luis_felipe@gmail.com";
+            const string email = "me@me.com";
             var valid = ValidateEmail(email);
 
 
